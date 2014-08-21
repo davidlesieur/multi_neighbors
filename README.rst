@@ -13,7 +13,7 @@ To install this plugin, see `How to use plugins
 <http://docs.getpelican.com/en/latest/plugins.html>`__ from the Pelican
 documentation.
 
-In `pelicanconf.py`, configure the maximum number of articles to list. For
+In ``pelicanconf.py``, configure the maximum number of articles to list. For
 example:
 
 .. code-block::
