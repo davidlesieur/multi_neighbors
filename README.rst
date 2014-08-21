@@ -11,11 +11,15 @@ Usage
 
 Add the plugin to `pelicanconf.py`:
 
+.. code-block::
+
     PLUGIN_PATH = 'pelican-plugins'
     PLUGINS = ['multi_neighbors']
 
 Also in `pelicanconf.py`, configure the maximum number of articles to list. For
 example:
+
+.. code-block::
 
     MULTI_NEIGHBORS = 5
 
