@@ -1,9 +1,9 @@
 Multi Neighbors Plugin for Pelican
 ==================================
 
-This plugin adds ``next_articles`` (a sequence of newer articles) and
-``prev_articles`` (a sequence of older articles) variables to the article's
-context.
+This `Pelican <https://getpelican.com>`_ plugin adds the ``next_articles`` (a
+list of newer articles) and the ``prev_articles`` (a list of older articles)
+variables to every article's context.
 
 
 Usage
@@ -13,14 +13,12 @@ To install this plugin, see `How to use plugins
 <http://docs.getpelican.com/en/latest/plugins.html>`__ from the Pelican
 documentation.
 
-In ``pelicanconf.py``, configure the maximum number of articles to list. For
-example:
+By default, up to 5 neighbors are listed in each direction. You may customize
+this value by defining ``MULTI_NEIGHBORS`` in your settings file, e.g.::
 
-.. code-block::
+    MULTI_NEIGHBORS = 3
 
-    MULTI_NEIGHBORS = 5
-
-Output the variables in your article template:
+The code to output the variables in your article template may look like:
 
 .. code-block:: html+jinja
 
