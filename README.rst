@@ -2,7 +2,7 @@ Multi Neighbors Plugin for Pelican
 ==================================
 
 This `Pelican <https://getpelican.com>`_ plugin adds the ``next_articles`` (a
-list of newer articles) and the ``prev_articles`` (a list of older articles)
+list of newer articles) and ``prev_articles`` (a list of older articles)
 variables to every article's context.
 
 
@@ -18,7 +18,8 @@ this value by defining ``MULTI_NEIGHBORS`` in your settings file, e.g.::
 
     MULTI_NEIGHBORS = 3
 
-The code to output the variables in your article template may look like:
+The code to output the variables in your article template might look like the
+following:
 
 .. code-block:: html+jinja
 
