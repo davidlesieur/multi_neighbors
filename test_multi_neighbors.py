@@ -4,7 +4,6 @@ import multi_neighbors
 
 
 class PseudoArticlesGenerator():
-    """A fake Generator, with just the attributes that are actually needed by the plugin."""
 
     def __init__(self, settings=None, articles=None):
         self.settings = settings or {}
@@ -12,13 +11,12 @@ class PseudoArticlesGenerator():
 
 
 class PseudoArticle():
-    """A fake Article, with just the attributes that are actually needed by the plugin."""
 
-    def __init__(self, name=''):
-        self.name = name
+    def __init__(self, title=''):
+        self.title = title
 
     def __repr__(self):
-        return f'{self.__class__.__name__}({self.name})'
+        return f'{self.__class__.__name__}({self.title})'
 
 
 class NeighborsTestCase(unittest.TestCase):
