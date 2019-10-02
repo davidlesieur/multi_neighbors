@@ -1,1 +1,1 @@
-from .multi_neighbors import register
+from .multi_neighbors import *

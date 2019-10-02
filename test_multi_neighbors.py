@@ -1,6 +1,6 @@
 import unittest
 
-from multi_neighbors import multi_neighbors
+import multi_neighbors
 
 
 class PseudoArticlesGenerator():
