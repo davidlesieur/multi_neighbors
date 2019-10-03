@@ -1,0 +1,15 @@
+language: python
+
+python:
+  - 3.6
+  - 3.7
+
+install:
+  - pip install -r requirements.txt
+  - pip install codecov
+
+script:
+  - coverage run test_multi_neighbors.py
+
+after_success:
+  - codecov

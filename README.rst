@@ -1,6 +1,13 @@
 Multi Neighbors Plugin for Pelican
 ==================================
 
+.. image:: https://travis-ci.org/davidlesieur/multi_neighbors.svg?branch=master
+    :target: https://travis-ci.org/davidlesieur/multi_neighbors
+
+.. image:: https://codecov.io/gh/davidlesieur/multi_neighbors/branch/master/graph/badge.svg
+    :target: https://codecov.io/gh/davidlesieur/multi_neighbors
+
+
 This `Pelican <https://getpelican.com>`_ plugin adds the ``next_articles`` (a
 list of newer articles) and ``prev_articles`` (a list of older articles)
 variables to every article's context.
